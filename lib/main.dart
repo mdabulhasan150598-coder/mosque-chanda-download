@@ -48,7 +48,7 @@ class MosqueChandaApp extends StatelessWidget {
   const MosqueChandaApp({super.key});
   @override
   Widget build(BuildContext context) => MaterialApp(
-    title: _mosqueName,
+    title: 'মসজিদ চাঁদা হিসাব',
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
       useMaterial3: true,
