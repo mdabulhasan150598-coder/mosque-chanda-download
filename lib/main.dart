@@ -3020,7 +3020,7 @@ void _showAddCategoryDialog(bool isInc, Function(String) onAdded) {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
-                          const Text(
+                          Text(
                             _mosqueName,
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold, color: Color(0xFF075B50)),
